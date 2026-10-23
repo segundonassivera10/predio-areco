@@ -1,0 +1,435 @@
+body {
+    background-image: url("imagen\ de\ predio\ areco.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: white
+    
+}
+
+body header{
+      h1{
+      
+        height: 120px;
+        width: 1200px;
+        border-radius: 25px;
+        font-family:fantasy;
+        font-size: 80px;
+        
+        
+    }
+    p{
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    
+   
+
+  nav {
+  
+  display: flex; 
+  gap: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; 
+  color: white; 
+  text-decoration: none; 
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+ }}
+
+ 
+/* CONTENIDO GENERAL */
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* TODAS LAS SECCIONES */
+main section {
+    padding: 30px;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    border-left: 6px solid #228b22;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+main section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+/* TITULOS */
+main section h2 {
+    color: #176b2c;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main section h3 {
+    color: #228b22;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* PARRAFOS */
+main section p {
+    color: #444444;
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* IMAGENES */
+main section img {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* LISTAS */
+main section ul {
+    padding-left: 25px;
+    line-height: 2;
+    color: #333333;
+}
+
+main section li {
+    padding-left: 5px;
+}
+
+/* INICIO */
+.inicio {
+    background: linear-gradient(135deg, #e8f5e9, #ffffff);
+    text-align: center;
+    padding: 55px 30px;
+    border-left: 6px solid #176b2c;
+}
+
+.inicio h2 {
+    font-size: 36px;
+}
+
+.inicio p {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+/* FUTBOL */
+.futbol {
+    background-color: #f5fff5;
+}
+
+/* PADEL */
+.padel {
+    background-color: #f2f9ff;
+    border-left-color: #168aad;
+}
+
+.padel h2,
+.padel h3 {
+    color: #168aad;
+}
+
+/* TENIS */
+.tenis {
+    background-color: #fffdf0;
+    border-left-color: #d4a017;
+}
+
+.tenis h2,
+.tenis h3 {
+    color: #a77b00;
+}
+
+/* GIMNASIO */
+.gimnasio {
+    background-color: #fff5f5;
+    border-left-color: #c0392b;
+}
+
+.gimnasio h2,
+.gimnasio h3 {
+    color: #c0392b;
+}
+
+/* ADAPTACION A CELULARES */
+@media (max-width: 600px) {
+    main {
+        width: 94%;
+        margin: 20px auto;
+    }
+
+    main section {
+        padding: 20px;
+        margin-bottom: 25px;
+    }
+
+    main section h2 {
+        font-size: 24px;
+    }
+
+    main section p {
+        font-size: 15px;
+    }
+
+    main section img {
+        height: 220px;
+    }
+
+    .inicio {
+        padding: 35px 20px;
+    }
+
+    .inicio h2 {
+        font-size: 28px;
+    }
+}
+
+
+ .inicio {
+    background-color: rgb(25, 150, 48);
+    }
+
+    /* FORMULARIO DEJÁ TU CV */
+#curriculums {
+    background: #151b17;
+    padding: 50px 30px;
+    margin: 40px auto;
+    max-width: 650px;
+    border-radius: 16px;
+    border: 1px solid #2e4535;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+}
+
+/* TÍTULO */
+#curriculums h2 {
+    text-align: center;
+    color: #7ed957;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ETIQUETAS */
+#curriculums label {
+    display: block;
+    margin-bottom: 8px;
+    color: #e5e7eb;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* CAMPOS DE TEXTO Y SELECT */
+#curriculums input[type="text"],
+#curriculums input[type="tel"],
+#curriculums input[type="email"],
+#curriculums select {
+    width: 100%;
+    padding: 13px 15px;
+    margin-bottom: 20px;
+    background: #222b25;
+    color: #ffffff;
+    border: 1px solid #3d5142;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+/* EFECTO AL SELECCIONAR UN CAMPO */
+#curriculums input:focus,
+#curriculums select:focus {
+    border-color: #7ed957;
+    box-shadow: 0 0 0 3px rgba(126, 217, 87, 0.15);
+}
+
+/* SELECTOR DE ÁREA */
+#curriculums select {
+    cursor: pointer;
+}
+
+/* CARGAR CV */
+#curriculums input[type="file"] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin: 10px 0 25px;
+    background: #222b25;
+    color: #dddddd;
+    border: 1px dashed #7ed957;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* BOTÓN (cuando lo agregues al HTML) */
+#curriculums button {
+    width: 100%;
+    padding: 14px;
+    background: #7ed957;
+    color: #142016;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#curriculums button:hover {
+    background: #62c83c;
+    transform: translateY(-2px);
+}
+
+/* ADAPTACIÓN A CELULARES */
+@media (max-width: 600px) {
+    #curriculums {
+        padding: 30px 20px;
+        margin: 20px 12px;
+    }
+
+    #curriculums h2 {
+        font-size: 24px;
+    }
+}
+
+/* SECCIÓN CONTACTO */
+#contacto {
+    background: #151b17;
+    color: #ffffff;
+    padding: 50px 30px;
+    margin: 40px auto;
+    max-width: 900px;
+    border-radius: 16px;
+    border: 1px solid #2e4535;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* TÍTULO */
+#contacto h2 {
+    text-align: center;
+    color: #7ed957;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+/* TEXTO DE PRESENTACIÓN */
+#contacto p {
+    text-align: center;
+    color: #d1d5db;
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* LISTA DE DATOS */
+#contacto ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+/* CADA DATO DE CONTACTO */
+#contacto li {
+    background: #528c65;
+    border: 1px solid #3d5142;
+    border-left: 4px solid #7ed957;
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+#contacto li:hover {
+    background: #29372c;
+    transform: translateX(5px);
+    border-left-color: #a0f578;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background: #506355;
+    color: #aab3ac;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 50px;
+    border-top: 2px solid #7ed957;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* ADAPTACIÓN A CELULARES */
+@media (max-width: 600px) {
+    #contacto {
+        padding: 30px 20px;
+        margin: 20px 12px;
+    }
+
+    #contacto h2 {
+        font-size: 24px;
+    }
+
+    #contacto p {
+        font-size: 15px;
+    }
+
+    #contacto li {
+        padding: 15px;
+        font-size: 14px;
+        overflow-wrap: anywhere;
+    }
+}
+ 
+
+
+
+
+ 
+   
+ 
+ 
